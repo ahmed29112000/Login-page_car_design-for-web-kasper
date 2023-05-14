@@ -1,0 +1,124 @@
+body{
+  background-image: url(../images/subscribe.jpg);
+  background-size:cover;
+  height: calc(100vh - 16px);
+  background-repeat: no-repeat;
+}
+.cont{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  border-radius: 11%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-width: 255px;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 69px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.cont1{
+  background-color: #ffffffd1;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 400px;
+  padding-top: 50px;
+}
+h2{
+  color: #2196f3;
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+h3{
+  color: #7c7c7c;
+  font-family: system-ui;
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: -6px;
+}
+form{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+input{
+  color: white;
+  font-size: 15px;
+  border: 0;
+  min-width: 280px;
+  height: 49px;
+  border-radius: 40px;
+  padding-left: 17px;
+  background-color: #012e57;
+  margin-top: 12px;
+}
+input:focus{
+  border: 0;
+  outline: 0;
+}
+input::placeholder{
+  color: rgba(255, 255, 255, 0.925);
+  font-size: 15px;
+  font-weight: bold;
+  transition: .5s linear;
+}
+input:focus::placeholder{
+  color: rgba(255, 255, 255, 0);
+}
+.tow{
+  margin-bottom: 75px;
+  margin-left: -145px;
+}
+button{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: 0;
+  min-width: 280px;
+  height: 39px;
+  border-radius: 40px;
+  background-color: #2196F3;
+  margin-top: 12px;
+  transition-duration: .5s;
+}
+button:hover{
+  background-color: #03192a;
+  color: #2196f3;
+}
+.link{
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 37px;
+}
+a{
+  text-decoration: none;
+  color: #03a9f4;
+  margin-right: 2px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition-duration: .5s;
+  width: 86px;
+  text-align: center;
+  border-radius: 10px;
+}
+a:hover{
+  background-color: #03192a;
+  color: #2196f3;
+}
+.three{
+  color: black;
+  font-weight: 900;
+}
